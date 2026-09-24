@@ -1,0 +1,332 @@
+{
+ "retrato": "proyectos/retrato.webp",
+ "categorias": [
+  {
+   "t": "Sitios web y plataformas",
+   "tags": [
+    "WordPress",
+    "React",
+    "Node",
+    "UI/UX"
+   ],
+   "n": 42,
+   "proyectos": [
+    {
+     "nombre": "Sitios web y plataformas",
+     "imgs": [
+      {
+       "src": "proyectos/9dee9df022cea3b0.webp",
+       "ar": 0.405
+      },
+      {
+       "src": "proyectos/0988154d98bf1469.webp",
+       "ar": 0.6722
+      },
+      {
+       "src": "proyectos/32211eed30b633d5.webp",
+       "ar": 1.2981
+      },
+      {
+       "src": "proyectos/ae12d07f582c8339.webp",
+       "ar": 0.2556
+      },
+      {
+       "src": "proyectos/1fc4fcb31929cb59.webp",
+       "ar": 0.1903
+      },
+      {
+       "src": "proyectos/e540c213480916a9.webp",
+       "ar": 0.5626
+      },
+      {
+       "src": "proyectos/23c8d1642ef028d6.webp",
+       "ar": 1.1993
+      },
+      {
+       "src": "proyectos/f91043d1ae886669.webp",
+       "ar": 0.7425
+      },
+      {
+       "src": "proyectos/8e7c2f8a79c0aad2.webp",
+       "ar": 0.5445
+      },
+      {
+       "src": "proyectos/f2cdd69fd6ef7d7c.webp",
+       "ar": 0.4921
+      },
+      {
+       "src": "proyectos/7b64058a58983509.webp",
+       "ar": 0.3798
+      },
+      {
+       "src": "proyectos/bf8de31c98c32182.webp",
+       "ar": 0.8304
+      },
+      {
+       "src": "proyectos/68caddb173ac632d.webp",
+       "ar": 0.7083
+      },
+      {
+       "src": "proyectos/b67d816a50b07ded.webp",
+       "ar": 0.7279
+      },
+      {
+       "src": "proyectos/d5e52aa7aa2447f6.webp",
+       "ar": 1.3748
+      },
+      {
+       "src": "proyectos/f6d339cf435aabf5.webp",
+       "ar": 0.4444
+      },
+      {
+       "src": "proyectos/003788a0040ebe3a.webp",
+       "ar": 0.2857
+      },
+      {
+       "src": "proyectos/0da016f6d48a5705.webp",
+       "ar": 1.1491
+      },
+      {
+       "src": "proyectos/aa374b04981ed88a.webp",
+       "ar": 0.5131
+      },
+      {
+       "src": "proyectos/3bff3e22aabe1f41.webp",
+       "ar": 0.3791
+      },
+      {
+       "src": "proyectos/824bc24ed4f9f679.webp",
+       "ar": 0.6368
+      },
+      {
+       "src": "proyectos/223c37335ba704c8.webp",
+       "ar": 1.1586
+      },
+      {
+       "src": "proyectos/e4b3d4d2fb8d0003.webp",
+       "ar": 0.3334
+      },
+      {
+       "src": "proyectos/68a05b89fe8c9e08.webp",
+       "ar": 0.1783
+      },
+      {
+       "src": "proyectos/d08dd8bb5c08283b.webp",
+       "ar": 0.3062
+      },
+      {
+       "src": "proyectos/b40791f2091ac0cc.webp",
+       "ar": 0.1678
+      },
+      {
+       "src": "proyectos/9ef4d4e02d4c795d.webp",
+       "ar": 0.1723
+      },
+      {
+       "src": "proyectos/12d7607288031908.webp",
+       "ar": 0.2332
+      },
+      {
+       "src": "proyectos/ca3c52263eef61bd.webp",
+       "ar": 0.2246
+      },
+      {
+       "src": "proyectos/9feabd4243893377.webp",
+       "ar": 0.7381
+      },
+      {
+       "src": "proyectos/eee145b60a71c9fc.webp",
+       "ar": 1.2
+      },
+      {
+       "src": "proyectos/a15f05899850eb43.webp",
+       "ar": 1.1707
+      },
+      {
+       "src": "proyectos/b4f88714522bbc01.webp",
+       "ar": 1.1707
+      },
+      {
+       "src": "proyectos/a1b6e2bfa182259b.webp",
+       "ar": 0.5007
+      },
+      {
+       "src": "proyectos/8da7faae4e530815.webp",
+       "ar": 0.64
+      },
+      {
+       "src": "proyectos/cc5e5b2d98632b30.webp",
+       "ar": 0.7724
+      },
+      {
+       "src": "proyectos/65a1e82a60042398.webp",
+       "ar": 0.2988
+      },
+      {
+       "src": "proyectos/d686c8dd5e7977c4.webp",
+       "ar": 0.4023
+      },
+      {
+       "src": "proyectos/0170f90beed51bc8.webp",
+       "ar": 0.7192
+      },
+      {
+       "src": "proyectos/3215a36b939ac7c6.webp",
+       "ar": 1.1531
+      },
+      {
+       "src": "proyectos/d3bf16995818f1dc.webp",
+       "ar": 1.6683
+      },
+      {
+       "src": "proyectos/4076917ec38b826e.webp",
+       "ar": 0.3418
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "E-commerce",
+   "tags": [
+    "Shopify",
+    "WooCommerce"
+   ],
+   "n": 25,
+   "proyectos": [
+    {
+     "nombre": "E-commerce",
+     "imgs": [
+      {
+       "src": "proyectos/34bfab7aa7538119.webp",
+       "ar": 1.8715
+      },
+      {
+       "src": "proyectos/1595fb130728eb99.webp",
+       "ar": 1.6069
+      },
+      {
+       "src": "proyectos/fd624ed86b658893.webp",
+       "ar": 1.569
+      },
+      {
+       "src": "proyectos/b3ffe10e6a033ed3.webp",
+       "ar": 1.0384
+      },
+      {
+       "src": "proyectos/8894f3abedbc71d1.webp",
+       "ar": 0.9929
+      },
+      {
+       "src": "proyectos/6fb843d01b53d1da.webp",
+       "ar": 0.5753
+      },
+      {
+       "src": "proyectos/075fbd95500c3be4.webp",
+       "ar": 0.6122
+      },
+      {
+       "src": "proyectos/52e807202f20dd32.webp",
+       "ar": 0.6278
+      },
+      {
+       "src": "proyectos/1b4971438dc98fed.webp",
+       "ar": 0.6854
+      },
+      {
+       "src": "proyectos/1ffc0326576adac9.webp",
+       "ar": 0.234
+      },
+      {
+       "src": "proyectos/fa2fc84f0a75a3e2.webp",
+       "ar": 0.3888
+      },
+      {
+       "src": "proyectos/162558df9b747f91.webp",
+       "ar": 0.7018
+      },
+      {
+       "src": "proyectos/ea8f1de624239c04.webp",
+       "ar": 0.5839
+      },
+      {
+       "src": "proyectos/6e6b0d6a84a75e27.webp",
+       "ar": 0.9578
+      },
+      {
+       "src": "proyectos/6e4e5ffd16285859.webp",
+       "ar": 0.3361
+      },
+      {
+       "src": "proyectos/4d0b2511b3edc915.webp",
+       "ar": 0.7629
+      },
+      {
+       "src": "proyectos/d74bc44416379063.webp",
+       "ar": 0.6988
+      },
+      {
+       "src": "proyectos/aabc79af2f27dd26.webp",
+       "ar": 0.9195
+      },
+      {
+       "src": "proyectos/342fd155dbdab47d.webp",
+       "ar": 0.2002
+      },
+      {
+       "src": "proyectos/4554c282eb477a90.webp",
+       "ar": 0.2996
+      },
+      {
+       "src": "proyectos/85dcf6a548ea3054.webp",
+       "ar": 0.5795
+      },
+      {
+       "src": "proyectos/4948b5d4eb1dcc64.webp",
+       "ar": 1.0714
+      },
+      {
+       "src": "proyectos/9d46f05b8360c33a.webp",
+       "ar": 0.4441
+      },
+      {
+       "src": "proyectos/7649fdb09fa1250a.webp",
+       "ar": 0.5913
+      },
+      {
+       "src": "proyectos/dd25b069131b8cc3.webp",
+       "ar": 0.2829
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Branding",
+   "tags": [
+    "Diseño Gráfico",
+    "Illustrator"
+   ],
+   "n": 3,
+   "proyectos": [
+    {
+     "nombre": "Branding",
+     "imgs": [
+      {
+       "src": "proyectos/388bce9b67837d29.webp",
+       "ar": 0.9742
+      },
+      {
+       "src": "proyectos/5d02813bbbc0c332.webp",
+       "ar": 2.602
+      },
+      {
+       "src": "proyectos/f78f88d823781f1c.webp",
+       "ar": 0.9616
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

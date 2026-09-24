@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Luis González | Diseñador y Desarrollador Web en Colombia</title>
+    <meta name="description" content="Diseño y desarrollo web en Colombia: sitios web, tiendas online y automatizaciones que convierten visitas en clientes. 71+ proyectos y 5.0★ en Workana." />
+    <meta name="robots" content="noindex,follow" />
+    <link rel="canonical" href="https://byluisworkana.dev/" />
+    <!-- Rutas reales por idioma (2026-09-11): / es español (mercado principal) y /en/ es inglés.
+         Las dos versiones se prerenderizan por separado (scripts/prerender.mjs) para que Google
+         tenga una URL indexable en cada idioma; el toggle del sitio navega entre ellas. -->
+    <!-- Una sola URL (sitio noindex): x-default apunta al dominio real. -->
+    <link rel="alternate" hreflang="x-default" href="https://byluisworkana.dev/" />
+    <meta name="theme-color" content="#050505" />
+    <style>
+      #root { opacity: 0; transition: opacity .45s ease; }
+      #root.ready { opacity: 1; }
+      #preloader { position: fixed; inset: 0; z-index: 9999; background: #050505; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; }
+      #preloader-label { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: .22em; color: #8a8a8a; }
+      /* Cargador: estatua CC0 girando (WebP animado, 55 KB, 28 fotogramas). Sin texto a proposito:
+         no depende del idioma ni de JS, y no hay nada que traducir en el prerender. */
+      #preloader-estatua { width: clamp(120px, 38vw, 220px); height: auto; display: block; }
+      @media (prefers-reduced-motion: reduce) { #preloader-estatua { display: none; } }
+      #preloader-bar-wrap { width: 220px; height: 2px; background: #1e1e1e; overflow: hidden; border-radius: 2px; }
+      #preloader-bar { height: 100%; width: 0%; background: #BFF747; transition: width 1.3s ease; }
+    </style>
+    <meta property="og:title" content="Luis González | Diseñador y Desarrollador Web en Colombia" />
+    <meta property="og:description" content="Sitios web, tiendas online y automatizaciones que convierten visitas en clientes. 71+ proyectos, 5.0★ Workana." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://byluisworkana.dev/" />
+    <meta property="og:image" content="https://byluisworkana.dev/og-cover.png" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Fuentes self-hosted en /fonts: ya no se cargan fuentes de terceros (render-blocking) -->
+    <link rel="preload" href="/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <script type="application/ld+json" id="seo-jsonld">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "name": "Luis González",
+          "jobTitle": "Diseñador y Desarrollador Web",
+          "url": "https://byluisworkana.dev",
+          "image": "https://byluisworkana.dev/og-cover.png",
+          "knowsAbout": ["Diseño web", "E-commerce", "React", "WordPress", "Node"],
+          "sameAs": ["https://www.workana.com/freelancer/493f427626188a3ea7eebab4707a5dca"]
+        },
+        {
+          "@type": "ProfessionalService",
+          "name": "Luis González — Diseño y Desarrollo Web",
+          "url": "https://byluisworkana.dev",
+          "image": "https://byluisworkana.dev/og-cover.png",
+          "priceRange": "$$",
+          "areaServed": { "@type": "Country", "name": "Colombia" },
+          "sameAs": ["https://www.workana.com/freelancer/493f427626188a3ea7eebab4707a5dca"],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicios",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diseño y desarrollo web" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-commerce (Shopify, WooCommerce)" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automatizaciones e integraciones" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Branding y UI/UX" } }
+            ]
+          },
+          "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "71" }
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DzvsrM-P.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-8YnGrL-S.css">
+  </head>
+  <body>
+    <!-- Preloader estático (visible desde el primer frame; lo quita React al montar) -->
+    <div id="preloader" aria-hidden="true">
+      <span id="preloader-label">PORTFOLIO · WORKANA</span>
+      <img id="preloader-estatua" src="/assets/loader-estatua.webp" alt="" width="260" height="317" decoding="async" />
+      <div id="preloader-bar-wrap"><div id="preloader-bar"></div></div>
+    </div>
+    <!-- OJO: aqui NO va un <link rel=preload as=fetch> del buda. Se probo el 2026-09-23 y el loader de
+         three usa XHR (no fetch), asi que el preload NO se reutiliza: descargaba los 2,59 MB dos veces
+         en paralelo y el modelo tardaba 7,6 s en vez de 2,1 s (medido con scripts/medir_loader_buda.py). -->
+    <!-- La barra del cargador NO se llena sola: refleja la carga real del buda (eventos
+         'hero-progreso' que manda el hero). Aqui solo se le da un arranque minimo. -->
+    <script>
+      setTimeout(function(){var b=document.getElementById("preloader-bar");if(b)b.style.width="6%";},60);
+    </script>
+    <div id="root"><nav class="nav-estatico" aria-label="Navegación principal">
+  <a href="/">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="/casos/">Casos</a>
+  <a href="#destacados">Destacados</a>
+  <a href="#proyectos">Proyectos</a>
+  <a href="#sobre-mi">Sobre mí</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+<header class="hero">
+  <span>06 — Diseñador &amp; Desarrollador Web · Colombia</span>
+  <h1>LUIS GONZÁLEZ<span>.</span></h1>
+  <p>Creo sitios web, tiendas online y automatizaciones que convierten visitas en clientes. Más de 6 años entregando proyectos con soporte real, de principio a fin.</p>
+  <p><strong>Diseñador y desarrollador web en Colombia</strong>: sitios web, tiendas online y automatizaciones. WordPress, React, Node.</p>
+</header>
+<section class="servicios">
+  <h2>Qué hago — diseño y desarrollo web en Colombia</h2>
+  <h3>Sitios web que venden (WordPress/React)</h3>
+  <p>Páginas rápidas y bien diseñadas con un solo objetivo: convertir visitas en clientes.</p>
+  <h3>Tiendas online — E-commerce (Shopify y WooCommerce)</h3>
+  <p>E-commerce con catálogo, pagos y envíos funcionando de punta a punta.</p>
+  <h3>Automatizaciones e integraciones</h3>
+  <p>APIs, pasarelas de pago y CRM. Tu negocio trabaja mientras duermes.</p>
+  <h3>Diseño y marca</h3>
+  <p>Identidad, logo y dirección de arte para que tu negocio se vea como lo que es.</p>
+</section>
+<section class="destacados">
+  <h2>Casos reales: sitios web, tiendas online y automatizaciones</h2>
+  <p>Nueve proyectos en producción — plataformas inmobiliarias, clubes de fútbol, tiendas online y sistemas a medida — con el stack real de cada uno.</p>
+</section>
+<section class="proyectos">
+  <h2>Portafolio: más de 71 proyectos web reales</h2>
+  <p>Sitios web, tiendas online y proyectos de marca hechos para clientes en Colombia y el mundo.</p>
+</section>
+<section class="sobre">
+  <h2>El estudio — más de 6 años, 5.0★ en Workana</h2>
+  <p>Hola, soy Luis González. Diseñador y desarrollador web con más de 6 años creando sitios que convierten visitas en clientes. No entrego "páginas": entrego resultados — una tienda que vende, una landing que capta, una automatización que ahorra horas.</p>
+  <p>Trabajo de la mano del cliente, de principio a fin, con comunicación real y soporte después de entregar. Por eso el 5.0 en Workana no es suerte: es constancia.</p>
+</section>
+<section class="contacto">
+  <h2>Hablemos de tu web</h2>
+  <p>¿Tienes un proyecto en mente? <a href="https://www.workana.com/freelancer/493f427626188a3ea7eebab4707a5dca">Contrátame en Workana</a> — 5.0★, 71 reseñas, respondo el mismo día.</p>
+</section>
+<footer>
+  <p>Diseño web en Colombia · en Workana — 5.0★ — hecho a mano, sin plantillas. © 2026 Luis González.</p>
+  <p>Modelo 3D del encabezado: <a href="https://sketchfab.com/3d-models/the-buddha-statue-in-a-mountain-53d144d6c081439f9aa5dc1b753ce1ce">“The Buddha statue in a mountain”</a> de <a href="https://sketchfab.com/AshSkag">AshSkag</a> — licencia CC BY.</p>
+</footer></div>
+  </body>
+</html>
